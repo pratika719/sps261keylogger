@@ -1,0 +1,38 @@
+# System Monitoring Tool - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+pynput==1.7.6
+Pillow==10.1.0
+cryptography==41.0.7
+requests==2.31.0
+pywin32==306
+
+# Audio recording (optional - comment out if not needed)
+sounddevice==0.4.6
+scipy==1.11.4
+numpy==1.26.2
+
+# Email functionality
+# Built-in: smtplib, email
+
+# System utilities
+# Built-in: socket, platform, os, time, datetime, getpass
+
+# Multi-processing
+# Built-in: multiprocessing
+
+# Configuration
+# Built-in: configparser
+
+# Logging
+# Built-in: logging
+
+# Executable creation (development only)
+pyinstaller==6.3.0
+
+# Development and testing (optional)
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.12.1
+flake8==6.1.0
