@@ -1,0 +1,105 @@
+# System Monitoring Tool - Git Ignore
+# IMPORTANT: Never commit sensitive data to version control
+
+# Configuration files with credentials
+config.ini
+
+# Encryption keys
+encryption.key
+*.key
+
+# Log files
+*.log
+monitor.log
+
+# Data directories
+logs/
+screenshots/
+audio/
+decrypted/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# PyInstaller
+build/
+dist/
+*.spec.backup
+*.manifest
+*.spec.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*_backup
+
+# Sensitive data patterns
+*password*
+*secret*
+*credential*
+*token*
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# Certificates and private keys
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+
+# Database files
+*.sqlite3
+*.db
+
+# Packaging/build
+pip-wheel-metadata/
+*.egg-info/
+
+# Secrets files
+secrets.json
+credentials.json
+
+# Exceptions (files that SHOULD be committed)
+!config.example.ini
+!requirements.txt
+!README.md
+!.gitignore
